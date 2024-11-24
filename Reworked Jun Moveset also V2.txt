@@ -776,7 +776,7 @@ local ReplacedAnimation = 18896229321
 
 local StartTime = 0 -- which time it starts like video
 local Speed = 1.5 -- animation speed
-local Duration = 999 -- when the animation stops
+local Duration = 1 -- when the animation stops
 
 local function handleAnimationDetection(animIdsToStop, replacementAnimId)
     local humanoid = game.Players.LocalPlayer.Character.Humanoid
@@ -927,10 +927,10 @@ handleAnimationDetection(firstAnimIdsToStop, ReplacedAnimation)
 
 --change m1 anims here
 
-local m1 = your_animationid
-local m2 = your_animationid
-local m3 = your_animationid
-local m4 = your_animationid
+local m1 = 15259161390
+local m2 = 15240216931
+local m3 = 15240176873
+local m4 = 15162694192
 
 local function handleAnimationDetection(animIdsToStop, replacementAnimId)
     local humanoid = game.Players.LocalPlayer.Character.Humanoid
